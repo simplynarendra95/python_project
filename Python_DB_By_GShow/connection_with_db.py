@@ -6,7 +6,7 @@ try:
         user="root",
         password="root",
         port=3306,
-        database="geekyshow",
+        database="testdb",
     )
     if con.is_connected:
         print("Database Connection Successfully ......")

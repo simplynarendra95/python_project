@@ -11,7 +11,7 @@ try:
     )
     if con.is_connected():
         print("Connection established....")
-        # sql = "create database geekyShow"
+        # sql = "create database testdb"
         # cur = con.cursor()
         # cur.execute(sql)
 except:
